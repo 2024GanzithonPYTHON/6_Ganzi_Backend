@@ -212,11 +212,13 @@ CORS_ALLOWED_ORIGINS = [
     "http://localhost:5173",  # React 개발 서버
     "https://flan.klr.kr",    # 프로덕션 서버
     "https://flanganzi.netlify.app/",
+    "https://flan22.netlify.app/",
 ]
 CSRF_TRUSTED_ORIGINS = [
     "http://localhost:5173",  # React 개발 서버
     "https://flan.klr.kr",    # 프로덕션 서버
     "https://flanganzi.netlify.app/",
+    "https://flan22.netlify.app/",
 ]
 
 CORS_ALLOW_CREDENTIALS = True
